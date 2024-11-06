@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #002060, #0082c8);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #005b99;
+    border-radius: 5px;
+}
+
+.brand {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #002060;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #002060;
+    font-size: 1em;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background: #002060;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #005b99;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+}
